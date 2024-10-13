@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background-color:blanchedalmond;
+}
+h3{
+    position: relative;
+    top:100px;
+
+}
+ div{
+    height: 200px;
+    width: 500px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin:auto;
+    position: relative;
+    top:100px;
+} 
+
+div:hover{
+    box-shadow: 3px 5px 6px goldenrod;
+}
+
+.button{
+    background-color: aqua;
+    border: 3px solid hotpink;
+    border-radius: 2px;
+    position: relative;
+    top:100px;
+}
+
+.button:hover{
+    transform: scale(1.15);
+}
